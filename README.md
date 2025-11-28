@@ -18,38 +18,14 @@ A Flask-based web application that provides intelligent movie recommendations wi
 ```bash
 git clone https://github.com/yourusername/movie-recommendation-app.git
 cd movie-recommendation-app
-Create a virtual environment
 
+2. **Create a virtual environment**
 bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
 
-bash
-pip install -r requirements.txt
-Add your movie dataset
+## 🏗️ Project Structure
 
-Place your movies.csv file in the data/ folder
-
-Ensure it contains at least a 'title' column
-
-Get OMDb API Key
-
-Register at OMDb API
-
-Update the API key in static/js/script.js
-
-Run the application
-
-bash
-python app.py
-Open your browser
-
-Navigate to http://localhost:5000
-
-Start searching for movies!
-
-🏗️ Project Structure
 text
 movie-recommendation-app/
 ├── data/
@@ -64,7 +40,7 @@ movie-recommendation-app/
 ├── app.py
 ├── requirements.txt
 └── README.md
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Backend: Flask, Pandas
 
 Frontend: HTML5, CSS3, JavaScript
@@ -73,12 +49,12 @@ API: OMDb API for movie data
 
 Styling: Netflix-inspired CSS
 
-📊 API Endpoints
+## 📊 API Endpoints
 GET / - Main application page
 
 GET /recommend?title={movie_title} - Get movie recommendations
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 📝 License
